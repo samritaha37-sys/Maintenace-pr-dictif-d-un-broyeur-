@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===== Streamlit / app artifacts =====
+# Trained models are regenerated automatically on first launch
+models/*.joblib
+models/meta.json
+# Generated PDF reports — keep folder but ignore content
+reports/*.pdf
+
+# Local Streamlit overrides (user-specific)
+.streamlit/secrets.toml
+
+# ===== Old / scratch files =====
+script.py
+script1.py
+script2.py
+script3.py
+Untitled*.ipynb
+*.bak
+
+# ===== Logs =====
+*.log
